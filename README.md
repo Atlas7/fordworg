@@ -1,28 +1,108 @@
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+Home page for fungai.org. Currently hosted on this GitHub page:
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
+[https://atlas7.github.io/fordworg/](https://atlas7.github.io/fordworg/)
 
-Open a terminal window or a command line and ```cd``` to that location.
+---
 
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
+Built with Jekyll [Massively Theme](https://github.com/iwiedenm/jekyll-theme-massively-src), GitHub Pages, [formspree.io](https://formspree.io/), and lots of modifications (e.g. pagination with jekyll-paginate-v2, newer CSS, overall layout, refactoring). I also use what I learnt from building [this Jekyll website](https://atlas7.github.io/fungai-blog/)
 
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the sitemap variable in front matter of each page. It looks like so...
+## Development Instruction
+
+git clone the repository. Then `cd` into it.
+
 ```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
+git clone https://github.com/Atlas7/fordworg
+cd fordworg
 ```
 
-### Formspring.io Integration
-Formspring is supported out of the box! Just add your email to ```_config.yml```
+Make sure git repository has the appropriate remote:
 
+```
+johnny@Chuns-MBP fordworg (master) $ git remote -v
+origin  https://github.com/Atlas7/fordworg (fetch)
+origin  https://github.com/Atlas7/fordworg (push)
+```
+
+Install dependencies (Ruby gems)
+
+```
+bundle install
+```
+
+Serve locally:
+
+```
+bundle exec jekyll serve
+```
+
+This will serve the blog post locally at [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+## How to create a new blog post
+
+First of all, it's always a good practice to create a new branch and work there (instead of directly on master branch)
+
+```
+git checkout -b my-new-branch
+```
+
+Use an IDE (I use Webstorm, though Sublime text will also do) and a terminal (e.g. iterm2, or Mac Terminal).
+
+Create a new blog post:
+
+- Got to `/_posts`
+- Create a markdown file with a name like this: `yyyy-mm-dd-hello-this-is-my-title.md`
+- Create a meta block at the top (so called "front matters"). I usually just copy and paste from older posts and tweak.
+- Write the post in markdown syntax
+- Save post
+
+To preview post:
+
+```
+bundle exec jekyll serve
+```
+
+This will serve the blog post locally at [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+Ready to push to [https://atlas7.github.io/fordworg](https://atlas7.github.io/fordworg)?
+
+```
+git add .
+git commit -m "add new features"
+git push origin my-new-branch
+```
+
+Go to Github, create a new pull request. (and as an admin myself I will happily approve and merge). Delete the
+GitHub branch afterwards for tidiness (it can always be restored so no worries)
+
+Now that GitHub is updated, update local master too:
+
+```
+git pull origin master
+```
+
+(or just `git pull`)
+
+Delete the local branch for tidiness:
+
+```
+git branch -d my-new-branch
+```
+
+## Handy articles
+
+- [Jekyll blog posts on non index.html pages](https://stackoverflow.com/questions/26048623/jekyll-blog-posts-on-non-index-html-pages): unfortunately GitHub pages doesn't support `jekyll-paginate-v2` gem yet so will need to continue with `jekyll-paginate` gem. One limitation is that pagination only works on `index.html`. To get pagination to work on a non root end point (e.g. `/pages/blog/` or `/blog/`), one must create a sub-directory (or sub-sub directory) at root, and create `index.html` inside it.
 
 ## Credits
+
+This project will not be as painless / enjoyable if it's not for the Jekyll Massively Theme - which is open source
+on GitHub under a Creative Common Licence. Many thanks to these folks!!! (thank you thank you thank you).
+
+### Formspring.io Integration
+
+Formspring is supported out of the box! Just add your email to ```_config.yml```
+
 ### Original README from HTML5 UP
+
 ```
 Massively by HTML5 UP
 html5up.net | @ajlkn
