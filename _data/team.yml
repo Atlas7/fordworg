@@ -16,3 +16,12 @@
   twitter: lemon_disco
   linkedin: clarestreet
 #  githubid: hazelnutshell
+
+- name: Johnny Chan
+  avatar: https://avatars0.githubusercontent.com/u/11135428?s=460&v=4
+  role: Technologist
+  greet: Hello world!
+  desc: I built this website with open source technologies (Jekyll, GitHub)
+  twitter: jAtlas7
+  linkedin: johnnycnchan
+  githubid: Atlas7
