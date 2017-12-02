@@ -61,7 +61,7 @@ sitemap:
               </article>
 
             <!-- Posts -->
-              <h2>Latest News</h2>
+              <!--<h2>Latest News</h2>-->
               <section class="posts">
                 {% for post in site.posts limit: site.posts_limits %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
@@ -92,7 +92,7 @@ sitemap:
           </div>
 
         <!-- Footer -->
-        {% include foot.html %}
+        {% include copyright.html %}
 
       </div>
 
