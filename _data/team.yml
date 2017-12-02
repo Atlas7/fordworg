@@ -2,7 +2,7 @@
   avatar: https://pbs.twimg.com/profile_images/699362308347314176/-dmGyDB2_400x400.jpg
   role: Chairman
   greet: Hi!
-  desc: Rotherhithe London based. Activist + Fundraiser + Interests in Nature, Conservation & Ecology + Local Politics & Local People.
+  desc: Rotherhithe London based. Activist, Fundraiser, Interests in Nature, Conservation & Ecology, Local Politics & Local People.
   twitter: slooshbag5
   linkedin: steve-cornish-b1841597
 #  githubid:
@@ -11,17 +11,17 @@
 #  avatar: https://pbs.twimg.com/profile_images/784701067535712256/uIiRQvsi_400x400.jpg
   avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAaLAAAAJDdmZmE4ODE2LWYzM2EtNDI1Mi1iMjk0LTJlNjMxOWIwNTQzZQ.jpg
   greet: Shrooooommss...
-  desc: Volunteer Officer at Stave Hill Ecology Park, Bee Urban volunteer, 2016 Natural Network Trainee. Loves fungi, bees and carpentry.
+  desc: Volunteer Officer at Stave Hill Ecology Park and Bee Urban volunteer. Loves fungi, bees and carpentry. I write blogs for this website.
   role: Secretary and Conservationist
   twitter: lemon_disco
   linkedin: clarestreet
-#  githubid: hazelnutshell
+  githubid: hazelnutshell
 
 - name: Johnny Chan
   avatar: https://avatars0.githubusercontent.com/u/11135428?s=460&v=4
   role: Technologist
   greet: Hello world!
-  desc: I built this website with open source technologies (Jekyll, GitHub)
+  desc: "I built this website with open source technologies (Jekyll, GitHub). I'm also a Machine Learning Engineer."
   twitter: jAtlas7
   linkedin: johnnycnchan
   githubid: Atlas7
