@@ -5,7 +5,7 @@ bio: Friends of Russia Dock Woodland Bio
 description: The official homepage of Friends of Russia Dock Woodland.
 
 # index.html - how many posts to display at home page?
-posts_limits: 10
+posts_limits: 2
 
 # Credit footer (foot.html) - populate this to form the string at the bottom
 # Further developed by [developer](developer_github) for client
@@ -72,7 +72,7 @@ gems:
   - jekyll-gist
   - jekyll-paginate
 
-paginate: 6
+paginate: 8
 paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
