@@ -4,8 +4,8 @@
 
 Friends of Russia Dock Woodland Homepage. Currently hosted on this GitHub page:
 
-[https://atlas7.github.io/fordworg/](https://atlas7.github.io/fordworg/): default github pages URL
-[http://fordw.org](http://fordw.org): custom domain name as defined in `CNAME` file.
+- [https://atlas7.github.io/fordworg/](https://atlas7.github.io/fordworg/): default github pages URL
+- [http://fordw.org](http://fordw.org): custom domain name as defined in `CNAME` file.
 
 ---
 
