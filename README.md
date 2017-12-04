@@ -1,10 +1,26 @@
-Home page for fungai.org. Currently hosted on this GitHub page:
+# fordworg
 
-[https://atlas7.github.io/fordworg/](https://atlas7.github.io/fordworg/)
+[![Build Status](https://travis-ci.org/Atlas7/fordworg.svg?branch=master)](https://travis-ci.org/Atlas7/fordworg)
+
+Friends of Russia Dock Woodland Homepage. Currently hosted on this GitHub page:
+
+[https://atlas7.github.io/fordworg/](https://atlas7.github.io/fordworg/): default github pages URL
+[http://fordw.org](http://fordw.org): custom domain name as defined in `CNAME` file.
 
 ---
 
-Built with Jekyll [Massively Theme](https://github.com/iwiedenm/jekyll-theme-massively-src), GitHub Pages, [formspree.io](https://formspree.io/), and lots of modifications (e.g. pagination with jekyll-paginate-v2, newer CSS, overall layout, refactoring). I also use what I learnt from building [this Jekyll website](https://atlas7.github.io/fungai-blog/)
+Built with:
+
+- Jekyll [Massively Theme](https://github.com/iwiedenm/jekyll-theme-massively-src),
+- GitHub Pages,
+- [formspree.io](https://formspree.io/),
+- and lots of modifications (e.g. pagination with jekyll-paginate)
+- newer CSS, overall layout, refactoring).
+
+Incorporated Continuous Integration with Travis CI and HTML Proofer Gem. Handy Ref:
+
+- [Jekyll, Travis CI, and Github](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
+- [HTML Proofer](https://github.com/gjtorikian/html-proofer): check HTML syntax
 
 ## Development Instruction
 
@@ -63,7 +79,7 @@ bundle exec jekyll serve
 
 This will serve the blog post locally at [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
-Ready to push to [https://atlas7.github.io/fordworg](https://atlas7.github.io/fordworg)?
+### Ready to push to GitHub?
 
 ```
 git add .
