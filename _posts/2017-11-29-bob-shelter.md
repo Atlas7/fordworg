@@ -12,12 +12,12 @@ Funding for Bob's Shed was awarded by Cleaner Greener Safer Southwark, and the w
 
 Bob passed away before construction started, but his Shed will stand as an acknowledgement of the help and support that the dog walking community give to our woodland.
 
-<img class="image main" src="/images/blog/Bob4.jpg" />
+<img class="image main" src="/images/blog/Bob4.jpg" alt="Bob4.jpg"/>
 
-<img class="image main" src="/images/blog/Bob3.jpg" />
+<img class="image main" src="/images/blog/Bob3.jpg" alt="Bob3.jpg" />
 
-<img class="image main" src="/images/blog/Bob2.jpg" />
+<img class="image main" src="/images/blog/Bob2.jpg" alt="Bob2.jpg" />
 
-<img class="image main" src="/images/blog/Bob1.jpg" />
+<img class="image main" src="/images/blog/Bob1.jpg" alt="Bob1.jpg" />
 
-<img class="image main" src="/images/blog/Bob5.jpg" />
+<img class="image main" src="/images/blog/Bob5.jpg" alt="Bob5.jpg" />

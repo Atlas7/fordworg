@@ -13,10 +13,11 @@ The awards are presented to Friends of Parks groups who have worked in partnersh
 Since the FRDW  was set up in 2004, the woodland has been transformed. Anti-social behaviour has been banished and it is now popular with thousands of users. 
 
 #### Mayor Boris Johnson said:
-  <div class="box">
-                           <p>
-                           “London boasts some of the most sublime green spaces in the country, and everyone deserves to enjoy their local parks without fear of crime. The scheme recognises the tireless work many unsung local heroes put into making green spaces more pleasant for everyone." 
-                           </p>
-                         </div> 
+
+<div class="box">
+  <p>
+    “London boasts some of the most sublime green spaces in the country, and everyone deserves to enjoy their local parks without fear of crime. The scheme recognises the tireless work many unsung local heroes put into making green spaces more pleasant for everyone." 
+  </p>
+</div> 
 
 

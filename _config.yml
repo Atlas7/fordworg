@@ -17,6 +17,7 @@ posts_limits: 2
 
 # Credit footer (foot.html) - populate this to form the string at the bottom
 client: Friends of Russia Dock Woodland
+github_repo_url: https://github.com/Atlas7/fordworg
 
 # Deployment specific
 #
