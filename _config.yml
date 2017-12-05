@@ -59,7 +59,7 @@ sass:
 
 # Site specific social contacts. Only used in Contact section
 # leave blank to hide icon
-#analytics-id:
+analytics-id: UA-53715022-3
 twitter: friendsrdw
 #facebook:
 #instagram:
