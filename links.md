@@ -10,6 +10,4 @@ sitemap:
 
 ### Links to other groups and blogs in the area. 
 
-- <a href="http://www.surreydocksfarm.org.uk/" target="_blank">Surrey Dock City Farm</a>: come stoke the sheep!
-- <a href="http://www.surreydocksfarm.org.uk/" target="_blank">hello world</a>
-- <a href="http://www.surreydocksfarm.org.uk/" target="_blank">hello world</a>
+- <a href="http://www.surreydocksfarm.org.uk/" target="_blank">Surrey Dock City Farm</a>: an Interactive, Free to Enter educational farm on the banks of the Thames, London.
