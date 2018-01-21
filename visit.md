@@ -36,4 +36,4 @@ Any bus that takes you through Canada Water stations, such as bus 47, 188, 381, 
 
 ### Opening times
 
-There are no gates to the park. Feel free to come visit anytime.
+There are no gates so feel free to come visit anytime.
