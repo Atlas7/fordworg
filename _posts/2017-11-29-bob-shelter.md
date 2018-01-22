@@ -12,9 +12,9 @@ A new oak rain shelter with a green roof has been constructed upon the green in 
 
 Bob Honeyman regularly walked his dog Missy around the woodlands, taking shelter in his car when it rained. Two years ago, he asked the Friends of Russia Dock Woodland if a shelter could be built for the dog walkers, so they would have somewhere dry to sit until the rain stopped. 
 
-Funding for Bob's Shed was awarded by Cleaner Greener Safer Southwark, and the work is being carried out by The Conservation Volunteers.
-
 Bob passed away before construction started, but his Shed will stand as an acknowledgement of the help and support that the dog walking community give to our woodland.
+
+Funding for Bob's Shed was kindly awarded by Cleaner Greener Safer Southwark.
 
 ## Volunteers from TCV building the rain shelter 
 
