@@ -3,7 +3,7 @@ layout: post
 title:  "January Update"
 date:   2017-12-23 20:00:00
 excerpt: "Streams are flowing again, new footbridges are in-progress and new weirs are on the cards!"
-image: "/images/blog/woodland1.jpg"
+image: "/images/blog/woodland1a.jpg"
 ---
 ### New borehole and Pump
 

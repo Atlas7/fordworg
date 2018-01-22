@@ -8,7 +8,7 @@ image: "/images/blog/Bob.jpg"
 
 A new oak rain shelter with a green roof has been constructed upon the green in Russia Dockwoodland. Built by volunteers from The Conservation Volunteers (TCV) Biodiversity Action Team and dedicated to Bob Honeyman, local residents called for it to be named "Bob's Shed".
 
-<img class="image main" src="/images/blog/Bob10.JPG" alt="Bob8.jpg"/>
+<img class="image main" src="/images/blog/Bob9.jpg" alt="Bob9.jpg"/>
 
 Bob Honeyman regularly walked his dog Missy around the woodlands, taking shelter in his car when it rained. Two years ago, he asked the Friends of Russia Dock Woodland if a shelter could be built for the dog walkers, so they would have somewhere dry to sit until the rain stopped. 
 
@@ -30,4 +30,4 @@ Bob passed away before construction started, but his Shed will stand as an ackno
 
 <img class="image main" src="/images/blog/Bob5.jpg" alt="Bob5.jpg" />
 
-<img class="image main" src="/images/blog/Bob8.JPG" alt="Bob10.JPG"/>
+<img class="image main" src="/images/blog/Bob10.JPG" alt="Bob10.JPG"/>
