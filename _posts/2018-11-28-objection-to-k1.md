@@ -8,7 +8,7 @@ image: "/images/blog/K1Objection.jpg"
 
 Draft objection letter for K1 Development
 
-[Example Objection Letter](https://github.com/Atlas7/fordworg/docs/example-objection-letter.docx)
+[Example Objection Letter](https://github.com/Atlas7/fordworg/raw/master/docs/example-objection-letter.docx)
 
 
 
