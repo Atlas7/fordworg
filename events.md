@@ -10,7 +10,9 @@ sitemap:
 
 ### Upcoming events...
 
-- Next Annual Group Meeting (AGM) to be held: To be confirmed
+- Next Annual Group Meeting (AGM) to be held: Thursday, 6th December 2018 from 19:00 until 21:00 in the Surrey Docks Health Centre Community Room. All welcome.
+
+- Help us to build a woven willow wall for bird watching and install a Kingfisher perch in Downtown pond. Date TBC.
 
 - Help us provide valuable nesting materials to the birds on the local docks. Meet at TCV SHED, Stave Hill's visitors centre. Follow the signs for TCV from the hill. Date to be confirmed. 
 
