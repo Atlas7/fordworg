@@ -10,7 +10,7 @@ sitemap:
 
 ### Upcoming events...
 
-- Next Annual Group Meeting (AGM) to be held: Thursday, 6th December 2018 from 19:00 until 21:00 in the Surrey Docks Health Centre Community Room. All welcome.
+- Next Annual Group Meeting (AGM) to be held on Thursday 5th March 2020, 6:30pm at Surrey Docks Health Centre, Blondin Way, Rotherhithe, London SE16 6AE.
 
 - Help us to build a woven willow wall for bird watching and install a Kingfisher perch in Downtown pond. Date TBC.
 
