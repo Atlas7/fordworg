@@ -68,11 +68,13 @@ location: Russia Dock Woodland
 chairman: Steve Cornish
 phone1: +44 20 7237 7586
 phone2: +44 79 4727 5386
-email: "fordw.org@gmail.com"
+# email: "fordw.org@gmail.com"
+email: "TBC"
 
 # Messages sent via website message box will send to here (via formspree.io)
 # Reference: https://formspree.io/
-email2: "fordw.org@gmail.com"
+# email2: "fordw.org@gmail.com"
+email2: "TBC"
 
 # Jekyll-paginate - how many blog posts displayed per page (used in blog section)
 paginate: 8
