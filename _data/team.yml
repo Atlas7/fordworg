@@ -17,7 +17,7 @@
   #githubid:
 
 - name: TBC
-  #avatar: https://pbs.twimg.com/profile_images/784701067535712256/uIiRQvsi_400x400.jpg
+  #avatar: https://xxx.jpg
   greet: Hi!
   desc: TBC
   role: Secretary
@@ -26,7 +26,7 @@
   #githubid: xxx
 
 - name: TBC
-  avatar: https://avatars0.githubusercontent.com/u/11135428?s=460&v=4
+  #avatar: https://xxx.jpg
   role: Website Developer
   greet: Hi!
   desc: TBC
