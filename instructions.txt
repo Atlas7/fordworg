@@ -1,0 +1,131 @@
+Author: Atlas7
+
+Purpose: a high level instruction to educate the next potential Github repository maintainer to help maintain the Friends of Russia Dock Woodland website. 
+
+
+The website URL is this: https://atlas7.github.io/fordworg/  - this is what people see.  (Note: it is possible to link a pretty custom domain name / URLto this Github URL - we will sort that out later).
+
+--- 
+
+To maintain the website, follow below instructions
+
+---
+
+Go to:
+https://github.com/Atlas7/fordworg
+
+Make sure you have "sign in" to Github (with your github account). (it may ask you do do a 2-factor authentication with the authenticator app - assuming you have already got it setup as part of github account creation process?)
+
+On the top left corner you should see a drop down (currently says "master", it means you are currently looking at the "master branch" of the code). What we are going to do next, is to create a new temporary branch called (say), "emma-1" (but call it whatever you like as long as the branch name does not exist already)
+
+Within that drop down box, click "View all branches" -> then click the "New Branch" green button. Populate the fields like this:
+
+  New Branch Name: emma-1 
+  Source: Master
+
+And then click "Create branch". This will create a new branch called "emma-1".
+
+Now click into the branch name (e.g. emma-1 in this example). It would take you to a link that looks like this:
+https://github.com/Atlas7/fordworg/tree/<your-branch-name>
+e.g. 
+https://github.com/Atlas7/fordworg/tree/emma-1
+
+On the top right corner, you will see a green drop down button "Code" - click it. Then click the "local" tab. And select "Open with GitHub desktop".
+
+If this is the first time you do this, it will ask you to download the Github Desktop software. Download into your computer. (It may take a while to download). Assuming you are using a Windows computer, it would download a file called "GitHubDesktopSetup-x64.exe" into your "Downloads" directory. Once it is downloaded, double click that .exe file to install GitHub Desktop. It will ask you to "Sign into GitHub.com" - click it to sign in. It would display the message: "Select user to authorize GitHub Desktop"... you should see your github user name appear in the list below - click the "continue" button next to your user name to select. Then click the green button "Authorize Desktop". If you get a pop up "Open Github Desktop.exe?" - just click "Open Github Desktop.exe". In the Configure Git box, you will see two options:
+
+- Use my github account name and email address
+- configure manually
+
+Click "configure manually". Then populate the field like this - should be auto populated already.
+
+- Name: (use your github user name)
+- Email: (this would be the email address that associate with your github user. If this is correct you should see a green tick saying the email addresses matches your github account)
+
+Click "Finish".
+
+---
+
+Within your github desktop, click "Clone a repository from the internet". Click the "URL" tab and poulate like this:
+
+- "Repository URL" box: Atlas7/fordworg
+- "Local path" box: (click the "choose button", and navigate to any directory of your choice on your computer. e.g. if you click "This PC", then "Documents", then click "Select Folder" button, it would automatically populate a local path that looks like this: "C:\Users\xxx\Documents\fordworg"  - where xxx would be your windows computer user name). Then click "Clone".
+
+---
+
+Once you have cloned the repository into your github desktop, you may see these drop down boxes at the top:
+
+- current repository: fordworg
+- current branch: master
+
+Change the "current branch" to your own branch. e.g. "origin/emma-1".
+
+Then you will see that the "current branch" drop box now has the value "emma-1" - indicating that GitHub desktop is pointing to your own "emma-1" branch.
+
+Right at the top of GitHub Desktop, you will see these tabs: Files / Edit / View / Repository / Branch / Help.
+
+Click Repository -> Open in External Editor.  (if you see a pop up says: "unable to open external editor"... and if it gives you the option to "Download Visual Studio Code"... click it accordingly - it would take you to https://code.visualstudio.com/ .... you can then "Download for Windows".... this would download the file "VSCodeUserSetup-x64-1.101.2.exe" to your local "Downloads" directory .... double click "VSCodeUserSetup-x64-1.101.2.exe" to install it - accept agreement -> Next -> (accept default and) click "Next" multiple times ... and eventually click "install"... and click "finish". If it opens Visio Studio Code automatically for you, just close it afterwards).
+
+Now try again within Github Desktop: Click Repository -> Open in External Editor. This will open up the repository. If it asks you whether you trust the author, just check the box that says "trus", and then click "Yes I trust the authors".
+
+---
+
+Witin Visuio Studio Code (this is where you will be editing the code to create new blog post / upload new files/photos / edit, etc). Within the bottom left, double check that you are referencing your own branch "emma-1" (for example). Make sure this is NOT "master". (switch to your own "emma-1" branch if it is not so already.)
+
+You wll see a very nice directory structure on the left. A little bit of introduction (or knowledge refresher) here:
+
+the "_posts" directory contains all the blog post (shows the content of the "News" tab of the website). Have a browse at the existing files and get a feel of the pattern. Pay attention to how we can reference images and display into the blog post.
+
+the "images/blog" directory is where we store all the image files that may be referenced (i.e. "used") by the blog posts.
+
+the "data/team.yml" file is where we store the team member contact detail. (shows the content of the "Team" tab of the website)
+
+the "_includes\contact.html" <-- (shows the content of the "Contact" tab of the website)
+
+the "docs" directory is where (in the very rare occassion) that we upload files (like word doc, pdf files) for people to download. You can see these blog posts to see how these uploaded fles are referenced within these previous blog posts:
+
+- _posts\2018-08-12-fordw-object-letter.md
+- _posts\2018-11-28-objection-to-k1.md
+
+At the repository root location, the following files worth knowing:
+
+- about.md   <-- shows the content of the "about" tab of the website
+- visit.md   <-- shows the content of the "visit" tab of the website
+- events.md  <-- shows the content of the "event" tab of hte website
+- links.md   <-- shows the content of the "links" tab of hte website
+
+---
+
+The top 3 icons on the left hand side of the Visio Studio Code is very important - you will use these frequently.
+
+- the explorer icon (two paper icon on the left) - this gives you the directory structure of the repository. Note the "new file", and "new directory" icons - very handy for you to create new files / directories at various places. To delete a directory or file, just highlight the thing and right click -> delete.
+- the search icon (magnifier glass on the left hand side) - you can do some simple (and advanced) text "search" there.
+- the source control icon (that icon that looks like a branch, directly below the magnifier glass icon)
+
+---
+
+Let's run through a small exercise. You will now do a very minor edit of an existing blog post and get that update reflected on the website.
+
+In this file "_posts\2023-12-06-agm-2022-minutes.md" .... try add a word anywhere in the main blog post content. (e.g. maybe add a line at the bottom of this blog post - e.g. add "Thank you" at the bottom for eample). 
+
+
+Once you have made the change make sure to save it - do a "Ctrl + S" to save. (alternatively, do a "File" -> "Save").
+
+Now you want to "commit" your change (into your "emma-1" branch). There are many ways to do this. But the simplest way for what is worth....
+
+Go back to Github Desktop app. (not Visio Studio Code). You will see that it automatically detects all the differences - e.g. the new line(s) that you've added. Feel free to add some optional messages at the bottom left corner. But all you need to do is to hit the blue "commit" button at the bottom to commit that change(s) to your own branch (e.g. emma-1). One you have commited you will see that it would now say "there are 0 changes" (because your branch is now up to date).
+
+Next, click the "push origin" button. (this will push your changes to GitHub.com properly.)
+
+Next, click the "Preview Pull Request" button (this will give you a preview of the changes that will go into the "master" branch later - note that the "master branch" is what the website is showing.). If the preview looks good, you click the drop down and click "create pull request" (this will create a request to merge your changes into the master branch, on GitHub.com)
+
+- "base" should say "master"
+- compare: should say "emma-1" (or whatever your branch is called).
+
+Click the Green "Create Pull Request" button.
+
+Given this is still early days, let me know once you have got to this far. I will take a look at your Pull Request at: https://github.com/Atlas7/fordworg/pulls  .... and if it looks good, I will click the "Merge Pull Request" Button to merge your branch (i.e. your changes) into the master branch (i.e. the actual website).
+
+Once the merge is completed, a downstream process will get kicked started to refresh the website (aka "deploy"). https://github.com/Atlas7/fordworg/actions
+
+In future I will give you the ability to "Merge Pull Request". But for now, your goal is to be able to create a Pull request that contains the proposed changes from your own branch (to be merged into the master branch).
